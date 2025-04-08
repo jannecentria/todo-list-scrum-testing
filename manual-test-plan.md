@@ -1,4 +1,4 @@
-# 🧪 Manual Test Plan – ToDo List Web Application
+#  Manual Test Plan – ToDo List Web Application
 
 This document outlines the manual test cases used to validate the application's key features and verify bug fixes.
 
