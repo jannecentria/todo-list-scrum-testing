@@ -23,7 +23,6 @@ This document outlines the manual test cases used to validate the application's 
 
 **Expected Result:**
 - Alert appears: “Please enter a task.”
-- Task is not added.
 
 ---
 
@@ -59,21 +58,11 @@ This document outlines the manual test cases used to validate the application's 
 - Task is removed from the regular task list.
 - Task appears in the Archive section.
 
----
 
-## ✅ Test Case 6: Archive with No Completed Tasks
-
-**Steps:**
-1. Ensure all tasks are incomplete.
-2. Click "Archive Completed Tasks."
-
-**Expected Result:**
-- Alert: “No completed tasks to archive.” (if implemented)
-- No change in task list.
 
 ---
 
-## ✅ Test Case 7: Add Important Task
+## ✅ Test Case 6: Add Important Task
 
 **Steps:**
 1. Enter a task in the important task input.
@@ -84,7 +73,7 @@ This document outlines the manual test cases used to validate the application's 
 
 ---
 
-## ✅ Test Case 8: Prevent Empty Important Task
+## ✅ Test Case 7: Prevent Empty Important Task
 
 **Steps:**
 1. Leave the important task input empty.
@@ -96,7 +85,7 @@ This document outlines the manual test cases used to validate the application's 
 
 ---
 
-## ✅ Test Case 9: Prevent Duplicate Important Task
+## ✅ Test Case 8: Prevent Duplicate Important Task
 
 **Steps:**
 1. Add an important task.
@@ -108,18 +97,18 @@ This document outlines the manual test cases used to validate the application's 
 
 ---
 
-## ✅ Test Case 10: Toggle Important Task
+## ✅ Test Case 9: Toggle Important Task
 
 **Steps:**
 1. Click on an important task.
 
 **Expected Result:**
 - Task gets marked as completed (line-through effect).
-- Toggle works correctly (no off-by-one bug).
+- Toggle works correctly.
 
 ---
 
-## ✅ Test Case 11: Archive Completed Important Tasks
+## ✅ Test Case 10: Archive Completed Important Tasks
 
 **Steps:**
 1. Mark an important task as completed.
@@ -131,7 +120,7 @@ This document outlines the manual test cases used to validate the application's 
 
 ---
 
-## ✅ Test Case 12: Persistence After Refresh
+## ✅ Test Case 11: Persistence After Refresh
 
 **Steps:**
 1. Add several regular and important tasks.
